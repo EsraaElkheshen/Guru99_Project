@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99">
+    <parameter name="browser" value=""/>
+
+    <test name="TC01 Open Link And Generate Userid And Password">
+        <classes>
+            <class name="TestCases.TC01_Credential">
+                <methods>
+                    <include name="openLink"/>
+                    <include name="generateCredential"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name=" TC04 Delete Customer">
+        <classes>
+            <class name="TestCases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidCredential"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC03_CreateNewCustomer">
+                <methods>
+                    <include name="createNewCustomer"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC03_CreateNewCustomer">
+                <methods>
+                    <include name="saveCustomerId"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC05_DeleteCustomer">
+                <methods>
+                    <include name="deleteCustomer"/>
+                </methods>
+            </class>
+
+            <!--class name="TestCases.TC03_CreateNewCustomer">
+                <methods>
+                    <include name="returnHomePage"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC16_LogOut">
+                <methods>
+                    <include name="logOut"/>
+                </methods>
+            </class-->
+
+        </classes>
+    </test>
+</suite>

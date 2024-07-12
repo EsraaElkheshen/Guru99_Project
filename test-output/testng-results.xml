@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-10T00:37:55 EET" name="Guru99" finished-at="2024-07-10T00:38:47 EET" duration-ms="52040">
+    <groups>
+    </groups>
+    <test started-at="2024-07-10T00:37:55 EET" name="TC01 Open Link And Generate Userid And Password" finished-at="2024-07-10T00:38:27 EET" duration-ms="32504">
+      <class name="TestCases.TC01_Credential">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:TestCases.TC01_Credential@5c917190]" started-at="2024-07-10T00:37:55 EET" name="setupDriver" finished-at="2024-07-10T00:37:59 EET" duration-ms="4316" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="openLink()[pri:1, instance:TestCases.TC01_Credential@5c917190]" started-at="2024-07-10T00:37:59 EET" name="openLink" description="open Link" finished-at="2024-07-10T00:38:07 EET" duration-ms="7711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLink -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC01_Credential@5c917190]" started-at="2024-07-10T00:38:07 EET" name="getResult" finished-at="2024-07-10T00:38:07 EET" duration-ms="32" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openLink status=SUCCESS method=TC01_Credential.openLink()[pri:1, instance:TestCases.TC01_Credential@5c917190] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="generateCredential()[pri:2, instance:TestCases.TC01_Credential@5c917190]" started-at="2024-07-10T00:38:08 EET" name="generateCredential" description="generate user id and password" finished-at="2024-07-10T00:38:26 EET" duration-ms="18623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateCredential -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC01_Credential@5c917190]" started-at="2024-07-10T00:38:26 EET" name="getResult" finished-at="2024-07-10T00:38:26 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=generateCredential status=SUCCESS method=TC01_Credential.generateCredential()[pri:2, instance:TestCases.TC01_Credential@5c917190] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.TC01_Credential@5c917190]" started-at="2024-07-10T00:38:26 EET" name="quit" finished-at="2024-07-10T00:38:27 EET" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- TestCases.TC01_Credential -->
+    </test> <!-- TC01 Open Link And Generate Userid And Password -->
+    <test started-at="2024-07-10T00:38:28 EET" name=" Change Password" finished-at="2024-07-10T00:38:47 EET" duration-ms="18863">
+      <class name="TestCases.TC02_Login">
+        <test-method is-config="true" signature="defineSuiteElements()[pri:0, instance:TestCases.TC02_Login@26e4d5b5]" started-at="2024-07-10T00:37:54 EET" name="defineSuiteElements" finished-at="2024-07-10T00:37:55 EET" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defineSuiteElements -->
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:TestCases.TC02_Login@26e4d5b5]" started-at="2024-07-10T00:38:28 EET" name="setupDriver" finished-at="2024-07-10T00:38:37 EET" duration-ms="8843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginWithValidCredential()[pri:1, instance:TestCases.TC02_Login@26e4d5b5]" started-at="2024-07-10T00:38:37 EET" name="loginWithValidCredential" description="login with valid credential" finished-at="2024-07-10T00:38:40 EET" duration-ms="3510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredential -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC02_Login@26e4d5b5]" started-at="2024-07-10T00:38:40 EET" name="getResult" finished-at="2024-07-10T00:38:40 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredential status=SUCCESS method=TC02_Login.loginWithValidCredential()[pri:1, instance:TestCases.TC02_Login@26e4d5b5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:TestCases.TC02_Login@26e4d5b5]" started-at="2024-07-10T00:38:46 EET" name="quit" finished-at="2024-07-10T00:38:47 EET" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC02_Login@26e4d5b5]" started-at="2024-07-10T00:38:47 EET" name="tearDown" finished-at="2024-07-10T00:38:48 EET" duration-ms="1655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC02_Login -->
+      <class name="TestCases.TC12_ChangePassword">
+        <test-method signature="changePassword()[pri:1, instance:TestCases.TC12_ChangePassword@427de266]" started-at="2024-07-10T00:38:40 EET" name="changePassword" description="change password" finished-at="2024-07-10T00:38:46 EET" duration-ms="5708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePassword -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.TC12_ChangePassword@427de266]" started-at="2024-07-10T00:38:46 EET" name="getResult" finished-at="2024-07-10T00:38:46 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changePassword status=SUCCESS method=TC12_ChangePassword.changePassword()[pri:1, instance:TestCases.TC12_ChangePassword@427de266] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- TestCases.TC12_ChangePassword -->
+    </test> <!--  Change Password -->
+  </suite> <!-- Guru99 -->
+</testng-results>

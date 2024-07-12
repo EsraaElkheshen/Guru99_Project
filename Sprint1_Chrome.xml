@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99">
+    <parameter name="browser" value=""/>
+
+    <test name="TC01 Open Link And Generate Userid And Password">
+        <classes>
+            <class name="TestCases.TC01_Credential">
+                <methods>
+                    <include name="openLink"/>
+                    <include name="generateCredential"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name=" TC01 Verify Login Page Opened Successfully">
+        <classes>
+            <class name="TestCases.TC02_Login">
+                <methods>
+                    <include name="loginWithValidCredential"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC03_CreateNewCustomer">
+                <methods>
+                    <include name="createNewCustomer"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC04_EditCustomer">
+                <methods>
+                    <include name="editCustomer"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC05_DeleteCustomer">
+                <methods>
+                    <include name="deleteCustomer"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC06_NewAccount">
+                <methods>
+                    <include name="newAccount"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC07_EditAccount">
+                <methods>
+                    <include name="EditAccount"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC09_Deposit">
+                <methods>
+                    <include name="Deposit"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC10_WithDrawl">
+                <methods>
+                    <include name="Withdrawal"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC11_FundTransfer">
+                <methods>
+                    <include name="fundTransfer"/>
+                </methods>
+            </class>
+
+
+            <class name="TestCases.TC12_ChangePassword">
+                <methods>
+                    <include name="changePassword"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC13_BalanceEnquiry">
+                <methods>
+                    <include name="balanceEnquiry"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC14_MiniStatement">
+                <methods>
+                    <include name="miniStatement"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC15_CustomizedStatement">
+                <methods>
+                    <include name="customizedStatement"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC03_CreateNewCustomer">
+                <methods>
+                    <include name="returnHomePage"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TC16_LogOut">
+                <methods>
+                    <include name="logOut"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
